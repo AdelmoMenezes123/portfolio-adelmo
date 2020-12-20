@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Space Mono",monospace;
+    text-decoration: none !important;
+    /* scroll-behavior: smooth; */
+    /* color: #FAFAFA; */
+    
+}
+
+body{
+    /* color: black; */
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
