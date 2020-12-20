@@ -72,6 +72,7 @@ nav ul {
         right: 0;
         justify-content: center;
         align-items: center;
+        z-index: 20;
     }
 
     #menu i {
