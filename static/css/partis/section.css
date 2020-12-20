@@ -1,43 +1,60 @@
-
-#apresentacaoPortfolio{
+#apresentacaoPortfolio {
   display: flex;
-    align-items: center;
-    height: 89vh;
-    overflow: hidden;
-    flex: 1;
+  align-items: center;
+  height: 89vh;
+  overflow: hidden;
+  flex: 1;
 }
 
-#apresentacaoTexto{
+#apresentacaoTexto {
   padding: 150px;
-  width: 60%;
+  align-self: baseline;
   flex-direction: column;
 }
 
-#apresentacaoPortfolio a{
+#apresentacaoPortfolio a {
   background-color: #4070f4;
-    color: #fff;
-    padding: 15px;
-    width: 200px;
-    display: flex;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    border: none;
-    margin-top: 30px;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: "Space Mono",monospace;
+  color: #fff;
+  padding: 15px;
+  width: 200px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Space Mono", monospace;
 }
 
-#apresentacaoPortfolio #nome{
+#apresentacaoPortfolio #nome {
   text-transform: uppercase;
-    font-size: 2.5rem;
-    font-weight: 900;
+  font-size: 2.5rem;
+  font-weight: 900;
 }
 
 #apresentacaoPortfolio #apresentacaoTexto h2 {
   font-size: 18px;
   font-weight: 400;
-  
+
+}
+
+@media (max-width: 1100px) {
+  #apresentacaoFoto {
+    display: none;
+  }
+
+
+  #apresentacaoPortfolio {
+    justify-content: center;
+    text-align: center;
+  }
+
+  #apresentacaoTexto {
+    /* padding: 150px; */
+    align-self: center;
+    display: flex;
+  }
 }
