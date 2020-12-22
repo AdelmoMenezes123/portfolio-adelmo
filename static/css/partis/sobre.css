@@ -1,5 +1,5 @@
 main #sobre {
-  padding: 50px 150px;
+  padding: 50px 85px;
   background-color: #fafafa;
 }
 
@@ -9,14 +9,14 @@ main #sobre #sobreMim {
   align-items: center;
 }
 
-main #sobre #sobreFoto {
+/* main #sobre #sobreFoto {
   width: 40%;
   padding-right: 30px;
-}
+} */
 
 main #sobre #sobreFoto img {
   width: 100%;
-  max-width: 300px;
+  /* max-width: 300px; */
 }
 
 main #sobre #sobreTexto {
@@ -52,4 +52,25 @@ main #sobre a {
   font-size: 16px;
   font-weight: 700;
   font-family: "Space Mono",monospace;
+}
+
+@media (max-width: 1000px) {
+  main #sobre #sobreFoto {
+    display: none;
+  }
+
+  main #sobre #sobreTexto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    /* padding: 0 20px; */
+    text-align: center;
+    color: #0e2431;
+  }
+
+  main #sobre {
+    padding: 70px 0px;
+  }
 }
