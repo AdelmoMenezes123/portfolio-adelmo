@@ -1,7 +1,7 @@
 #apresentacaoPortfolio {
   display: flex;
   align-items: center;
-  /* height: 80%; */
+  height: 90vh;
   overflow: hidden;
   flex: 1;
 }
@@ -10,6 +10,7 @@
   padding: 170px;
   align-self: baseline;
   flex-direction: column;
+  margin-top: auto;
 }
 
 #apresentacaoPortfolio a {
@@ -58,19 +59,21 @@
 }
 
 #apresentacaoPortfolio #apresentacaoFoto {
+  width: 70%;
   position: relative;
-  height: 86vh;
+  height: 100vh;
+
 }
 
 .object {
   animation: MoveUpDown 2s linear infinite;
   -webkit-animation: MoveUpDown 2s linear infinite;
-  position: absolute;
-  right: 0;
-  top: -30px;
-  z-index: 4;
-  max-width: 550px;
-  /* width: 80%; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 4;
+    max-width: 550px;
+    width: 100%;
 }
 
 .object {
@@ -103,7 +106,7 @@
   }
 
   #apresentacaoTexto {
-    /* padding: 150px; */
+    margin-top: initial;
     align-self: center;
     display: flex;
   }
