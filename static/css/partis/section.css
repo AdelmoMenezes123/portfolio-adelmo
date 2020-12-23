@@ -1,7 +1,7 @@
 #apresentacaoPortfolio {
   display: flex;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
   overflow: hidden;
   flex: 1;
 }
