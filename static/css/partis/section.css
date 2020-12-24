@@ -48,6 +48,7 @@
   width: 160%;
   position: absolute;
   right: 0;
+  top: 17vh;
   display: flex;
   height: 83vh;
   flex-wrap: wrap-reverse;
