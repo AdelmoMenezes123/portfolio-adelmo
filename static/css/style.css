@@ -408,13 +408,16 @@ main #sobre #sobreMim {
 }
 
 main #sobre #sobreFoto {
-    width: 40%;
-    padding-right: 30px
+    width: 30%;
+    padding-right: 30px;
+    /* background-color: #fffafa; */
+
 }
 
 main #sobre #sobreFoto img {
     width: 100%;
-    max-width: 400px
+    max-width: 400px;
+
 }
 
 @media screen and (max-width:1000px) {
@@ -425,7 +428,7 @@ main #sobre #sobreFoto img {
 
 main #sobre #sobreTexto {
     width: 60%;
-    padding-left: 30px
+    padding-left: 30px;
 }
 
 @media screen and (max-width:1000px) {
