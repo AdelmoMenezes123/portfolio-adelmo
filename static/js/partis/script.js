@@ -45,39 +45,6 @@ $(document).ready(function () {
       );
       return false;
   });
-  //Links dos meus conhecimentos
-  const techs = [{
-      name: 'htmlecss',
-      url: 'https://www.treinaweb.com.br/blog/o-que-e-e-como-comecar-com-html-e-css/'
-  }, {
-      name: 'js',
-      url: 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/',
-  }, {
-      name: 'sass',
-      url: 'https://sass-lang.com/'
-  }, {
-      name: 'bootstrap',
-      url: 'https://getbootstrap.com/',
-  }, {
-      name: 'reactjs',
-      url: 'https://pt-br.reactjs.org/',
-  }, {
-      name: 'materialize',
-      url: 'https://materializecss.com/',
-  }, {
-      name: 'wordpress',
-      url: 'https://br.wordpress.com/',
-  }, {
-      name: 'figma',
-      url: 'https://www.figma.com/'
-  }]
-
-  techs.forEach(tech => {
-      $('.' + tech.name).on('click', () => {
-          window.open(tech.url)
-      })
-  });
-
 });
 
 //Dark Mode
