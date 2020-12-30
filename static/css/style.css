@@ -260,8 +260,9 @@ body.dark footer {
 }
 
 #apresentacaoPortfolio #apresentacaoTexto {
-    padding: 150px;
-    width: 60%;
+    /* padding: 150px; */
+    padding: 150px 0px 150px 150px;
+    /* width: 60%; */
     flex-direction: column;
     align-self: flex-end;
 }
@@ -342,9 +343,13 @@ body.dark footer {
 }
 
 #apresentacaoPortfolio #apresentacaoFoto {
-    width: 40%;
+    /* width: 54%;
     position: relative;
-    height: 100vh
+    height: 100vh */
+
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
 }
 
 @media screen and (max-width:1000px) {
@@ -355,11 +360,11 @@ body.dark footer {
 
 #apresentacaoPortfolio #apresentacaoFoto #fundo {
     /* width: 100%; */
-     max-width: 75vw; 
-    max-height: 75vh;
-    position: absolute;
-    top: 65px;
-    right: 0
+    min-width: 66vw; 
+    /* max-height: 75vh; */
+    /* position: absolute; */
+    /* top: 65px; */
+    /* right: 0 */
 }
 
 @media screen and (max-width:1000px) {
