@@ -361,6 +361,8 @@ body.dark footer {
 #apresentacaoPortfolio #apresentacaoFoto #fundo {
     /* width: 100%; */
     min-width: 66vw; 
+    margin-top: 100px;
+    background-color: initial;
     /* max-height: 75vh; */
     /* position: absolute; */
     /* top: 65px; */
