@@ -520,6 +520,7 @@ main #projetos article div {
     box-shadow: 0 0 10px #cacaca;
     position: relative;
     text-align: center;
+    margin-bottom: auto;
 }
 
 main #projetos article div img{
