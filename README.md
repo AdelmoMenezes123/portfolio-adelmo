@@ -5,8 +5,7 @@
   <img src="img-portfolio.png" title="Imagem do meu site">
 </p>
 
-#Tech
-
+# Tech
 1. HTML
 2. CSS
 3. JQUERY
@@ -18,4 +17,4 @@
 - [x] Conhecimentos
 - [ ] contato 
 
-# Site responsivo criado em 2020 - Adelmo Menezes - Software Developer
+#### Site responsivo criado em 2020 - Adelmo Menezes - Software Developer
