@@ -1,5 +1,6 @@
 # Meu Portifolio
 
 <p align="center">
-  <img src="https://portfolio-adelmo.vercel.app/" width="350" title="Imagem do meu site">
+  <a href="https://portfolio-adelmo.vercel.app">
+  <img src="img-portfolio.png" width="350" title="Imagem do meu site">
 </p>
