@@ -4,7 +4,9 @@
   <a href="https://portfolio-adelmo.vercel.app">
   <img src="img-portfolio.png" title="Imagem do meu site">
 </p>
-
+ 
+ ``` Click na imagem para navegar no meu portfolio ```
+ 
 # Tech
 1. HTML
 2. CSS
