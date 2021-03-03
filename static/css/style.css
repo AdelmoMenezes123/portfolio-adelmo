@@ -3,6 +3,14 @@
 @import url(https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 
+main #meusConhecimentos article .nivelConhecimento {
+    background: url(../img/star.png) repeat-x;
+    background-position: 0 100%;
+    float: left;
+    height: 23px;
+    display: block;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -260,8 +268,9 @@ body.dark footer {
 }
 
 #apresentacaoPortfolio #apresentacaoTexto {
-    padding: 150px;
-    width: 60%;
+    /* padding: 150px; */
+    padding: 150px 0px 150px 150px;
+    /* width: 60%; */
     flex-direction: column;
     align-self: flex-end;
 }
@@ -342,9 +351,13 @@ body.dark footer {
 }
 
 #apresentacaoPortfolio #apresentacaoFoto {
-    width: 40%;
+    /* width: 54%;
     position: relative;
-    height: 100vh
+    height: 100vh */
+
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
 }
 
 @media screen and (max-width:1000px) {
@@ -355,11 +368,13 @@ body.dark footer {
 
 #apresentacaoPortfolio #apresentacaoFoto #fundo {
     /* width: 100%; */
-     max-width: 75vw; 
-    max-height: 75vh;
-    position: absolute;
-    top: 65px;
-    right: 0
+    min-width: 66vw; 
+    margin-top: 100px;
+    background-color: initial;
+    /* max-height: 75vh; */
+    /* position: absolute; */
+    /* top: 65px; */
+    /* right: 0 */
 }
 
 @media screen and (max-width:1000px) {
@@ -513,6 +528,7 @@ main #projetos article div {
     box-shadow: 0 0 10px #cacaca;
     position: relative;
     text-align: center;
+    margin-bottom: auto;
 }
 
 main #projetos article div img{
