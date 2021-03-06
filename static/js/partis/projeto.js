@@ -37,7 +37,7 @@ const dados = [{
 {
     id: 3,
     title: 'Move Body',
-    img: 'static/img/projetos/movebody.png',
+    img: 'static/img/projetos/movebody2.png',
     info: 'Semana Next Level Week 4, OmniStack, envento promovido pela Rocketseat. Foi usado tecnologias como:',
     link1: '/static/img/techs/reactjs.svg',
     link2: '/static/img/techs/css.svg',
