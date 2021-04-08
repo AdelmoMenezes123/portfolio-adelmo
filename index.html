@@ -23,6 +23,11 @@
 
     <link rel="stylesheet" href="static/css/style.css">
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+    
     <script defer src="https://kit.fontawesome.com/30f83f736b.js" crossorigin="anonymous"></script>
 
     <title>Portfólio | Adelmo Menezes - Desenvolvedor Front-end e Back-end</title>
@@ -43,8 +48,7 @@
             <ul>
                 <li><a href="#sobre">Sobre mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#meusConhecimentos">Conhecimentos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#meusConhecimentos">Experiências</a></li>
                 <!--Dark Mode-->
                 <li class="da">
                     <button class="dark-button"><i class="fa fa-moon-o"></i> </button>
@@ -57,17 +61,17 @@
     </header>
 
     <main>
-        <section id="apresentacaoPortfolio">
+        <section id="apresentacaoPortfolio" >
             <article id="apresentacaoTexto">
                 <h2>
-                    Olá, eu sou o,
+                    <span class="daley-inicio"> Olá, eu sou o,</span>
                     <br>
-                    <span id="nome">Adelmo Menezes</span>
+                    <span id="nome" class="daley-inicio">Adelmo Menezes</span>
                     <br>
-                    <span>Desenvolvedor Front-end e Software <span class="fim">Developer.</span></span>
+                    <span class="msg-init">Desenvolvedor Front-end e Software Developer.</span></span>
                 </h2>
-                <a href="https://github.com/adelmomenezes123" target="_blank">
-                    <i style="font-size: 22px" class="fa fa-github"></i>&nbsp;Meu GitHub
+                <a href="https://api.whatsapp.com/send?phone=71983449654" target="_blank" style="background-color: #32b132;">
+                    <i style="font-size: 22px" class="fa fa-whatsapp"></i>&nbsp;Meu WhatsApp
                 </a>
             </article>
 
@@ -80,36 +84,42 @@
 
         <section id="sobre">
             <section id="sobreMim">
-                <article id="sobreFoto">
+                <article id="sobreFoto" class="daley-sobre">
                     <img src="/static/img/adelmo.png" alt="uma foto de mim com mascara preta e camisa branca.">
                 </article>
                 <article id="sobreTexto">
                     <h3>Sobre mim</h3>
-                    <p>
+                    <p class="daley-sobre">
                         Meu nome é Adelmo Menezes, tenho 25 anos, moro no Brasil, especificamente em São Francisco do
                         Conde - BA.
                         Atualmente estou estudando em uma universidade e estagiando na empresa i9 Software como Software
                         Developer.
                         Também tenho estudado bastante sozinho para aprender novas tecnologias, como ReactJS e nodeJS
                     </p>
-                    <p>
+                    <p class="daley-sobre">
                         Conheci o mundo da progamação em 2014, e em 2017 eu comecei a fazer Sistema de informação na
                         universidade.
                         Iniciei como Desenvolvedor em 2019 quando tive minha primeira oportunidade de estagio em uma
                         startup.
                         Desde então venho dedicando cerca de 4hrs por dia aos estudos.
                     </p><br>
+                    <span class=" d-flex daley-inicio">
                     <a href="https://www.linkedin.com/in/adelmomenezes/" target="_blank">
-                        <i style="font-size: 22px" class="fa fa-linkedin"></i>&nbsp;Meu Linkedin
+                        <i style="font-size: 22px" class="fa fa-linkedin"></i>&nbsp;Linkedin
                     </a>
+                    
+                    <a href="https://github.com/adelmomenezes123" target="_blank">
+                     <i style="font-size: 22px" class="fa fa-github"></i>&nbsp;GitHub
+                    </a>
+                  </span>
                 </article>
             </section>
         </section>
 
         <section id="projetos">
             <h2>Projetos</h2>
-              <article>
-                <div id="proj">
+              <article class="daley-proj">
+                <div id="proj" class="daley-proj">
                     <img src="" id="fotoProjeto">
                     <h2 id="tituloProjeto"></h2>
                     <h3 class="desc">Descrição</h3>
@@ -129,71 +139,71 @@
                 </div>
         </section>
 
-        <section id="meusConhecimentos">
-            <h2 id="textSkill">Conhecimentos</h2>
-            <div>
+        <section id="meusConhecimentos" class="">
+            <h2 id="textSkill">Experiências</h2>
+            <div class="daley-exp">
               <article class="htmlecss">
                 <img src="static/img/logoHTMLeCSS.png" alt="Logo do HTML e CSS" class="imageIcones">
                 <h2>HTML e CSS</h2>
                 <p>2019 - Atualmente</p>
-                <div class="estrelaConhecimento"><span style="width:90%" class="nivelConhecimento"></span>
-                </div>
+                <!-- <div class="estrelaConhecimento"><span style="width:90%" class="nivelConhecimento"></span>
+                </div> -->
               </article>
       
               <article class="js">
                 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Logo do JavaScript" class="imageIcone">
                 <h2>JavaScript</h2>
                 <p>2019 Atualmente</p>
-                <div class="estrelaConhecimento"><span style="width:50%" class="nivelConhecimento"></span></div>
+                <!-- <div class="estrelaConhecimento"><span style="width:50%" class="nivelConhecimento"></span></div> -->
               </article>
 
               <article class="js">
                 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Logo do NodeJs" class="imageIcone">
                 <h2>NodeJS</h2>
                 <p>2019 - Atualmente</p>
-                <div class="estrelaConhecimento"><span style="width:50%" class="nivelConhecimento"></span></div>
+                <!-- <div class="estrelaConhecimento"><span style="width:50%" class="nivelConhecimento"></span></div> -->
               </article>
       
               <article class="js">
                 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png" alt="Logo do Jquery" class="imageIcone">
                 <h2>Jquery</h2>
                 <p>2020.2 - Atualmente</p>
-                <div class="estrelaConhecimento"><span style="width:50%" class="nivelConhecimento"></span></div>
+                <!-- <div class="estrelaConhecimento"><span style="width:50%" class="nivelConhecimento"></span></div> -->
               </article>
 
               <article class="bootstrap">
                 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png" alt="Logo do Bootstrap" class="imageIcone">
                 <h2>Bootstrap</h2>
                 <p>2019 - Atualmente</p>
-                <div class="estrelaConhecimento"><span style="width:80%" class="nivelConhecimento"></span></div>
+                <!-- <div class="estrelaConhecimento"><span style="width:80%" class="nivelConhecimento"></span></div> -->
               </article>
       
               <article class="js">
                 <img src="/static/img/handle.png" alt="Logo do handlebars" class="imageIcone">
                 <h2>Handlebars</h2>
                 <p>2020.2 - Atualmente</p>
-                <div class="estrelaConhecimento"><span style="width:70%" class="nivelConhecimento"></span></div>
+                <!-- <div class="estrelaConhecimento"><span style="width:70%" class="nivelConhecimento"></span></div> -->
               </article>
       
               <article class="reactjs">
                 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="Logo do ReactJS" class="imageIcone">
                 <h2>ReactJS</h2>
                 <p>Apenas estudo</p>
-                <div class="estrelaConhecimento"><span style="width:20%" class="nivelConhecimento"></span></div>
+                <!-- <div class="estrelaConhecimento"><span style="width:20%" class="nivelConhecimento"></span></div> -->
               </article>
       
               <article class="typescript">
                 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="Logo do TypeScript" class="imageIcone">
                 <h2>TypeScript</h2>
                 <p>2019 - Atualmente</p>
-                <div class="estrelaConhecimento"><span style="width:70%" class="nivelConhecimento"></span></div>
+                <!-- <div class="estrelaConhecimento"><span style="width:70%" class="nivelConhecimento"></span></div> -->
               </article>
 
               <article class="typescript">
                 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" alt="Logo Git" class="imageIcone">
                 <h2>Git</h2>
                 <p>2019 - Atualmente</p>
-                <div class="estrelaConhecimento"><span style="width:90%" class="nivelConhecimento"></span></div>
+                <!-- <div class="estrelaConhecimento"><span style="width:90%" class="nivelConhecimento"></span></div> -->
               </article>
       
             </div>
@@ -211,6 +221,32 @@
     <!--Meus Scritps-->
     <script src="./static/js/partis/script.js"></script>
     <script src="./static/js/partis/projeto.js"></script>
+    <script>
+   
+      const rs ={
+         delay    : 450,
+         duration: 870,
+         origin : 'bottom',
+         reset: true,
+         distance:'90px',
+      }
+
+      const rsText ={
+         delay    : 450,
+         duration: 870,
+         origin : 'left',
+         reset: true,
+         distance:'100px',
+         opacity:.2,
+      }
+
+      ScrollReveal().reveal('.daley-inicio',rs )
+      ScrollReveal().reveal('.daley-sobre',rsText )
+      ScrollReveal().reveal('.daley-proj',rs )
+      ScrollReveal().reveal('.daley-exp',rs )
+      
+
+   </script>
     <!-- JavaScript Bundle with Popper -->
     <!-- JavaScript Bundle with Popper -->
 </body>

@@ -82,10 +82,19 @@ $('.light-button').on('click', function () {
 //Contato
 valor = document.getElementById('campo').value
 
-function testar() {
-  if (valor != 'g') {
-      alert('Complete o nome "google" com uma letra para enviar!')
-  }
+function animateLinks(){
+  this.navLinks.forEach((link, index) => {  
+  link.style.animation
+  ? (link.style.animation = "")
+  : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`)
+  });
 }
-;
+
+ScrollReveal().reveal('.headline', {
+  delay: 375,
+  duration: 500,
+  reset: true
+});
+
+
 
