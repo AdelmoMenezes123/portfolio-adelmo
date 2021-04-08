@@ -36,8 +36,31 @@ const dados = [{
 },
 {
     id: 3,
+    title: 'Move Body',
+    img: 'static/img/projetos/movebody2.png',
+    info: 'Semana Next Level Week 4, OmniStack, envento promovido pela Rocketseat. Foi usado tecnologias como:',
+    link1: '/static/img/techs/reactjs.svg',
+    link2: '/static/img/techs/css.svg',
+    link3: '/static/img/techs/js.svg',
+    link_projeto: 'https://movebody.vercel.app/',
+    github: 'https://github.com/AdelmoMenezes123/movebody/blob/master/README.md'
+},
+{
+    id: 4,
+    title: 'Nerd-Folio',
+    img: 'static/img/projetos/nerdfolio.jpeg',
+    info: 'Blog Pessoal para você armazenar status de atividades recente, no mundo "NERD"',
+    link1: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png',
+    link2: '/static/img/handle.png',
+    link3: '/static/img/techs/js.svg',
+    link_projeto: 'https://nerdfolio.herokuapp.com/',
+    github: 'https://github.com/AdelmoMenezes123/note-app/blob/master/README.md'
+
+},
+{
+    id: 4,
     title: 'Calculadora VPL',
-    img: 'static/img/projetos/calcula-vpl.png',
+    img: 'static/img/projetos/calcula-vpl.jpeg',
     info: ' Trabalho de faculdade para a materia - Gest. Financeira - Calculadora VPL',
     link1: '/static/img/techs/reactjs.svg',
     link2: '/static/img/techs/material.svg',
@@ -47,7 +70,7 @@ const dados = [{
 
 },
 {
-    id: 4,
+    id: 5,
     title: 'IMC com react',
     img: 'static/img/projetos/imc-react.png',
     info: 'Projeto de estudo, para aperfeicoar meus conhecimentos em react',
@@ -59,9 +82,9 @@ const dados = [{
 
 },
 {
-    id: 5,
+    id: 6,
     title: 'Pizzaria',
-    img: 'static/img/projetos/pizza.png',
+    img: 'static/img/projetos/pizza.jpeg',
     info: ' Projeto feito a partir de uma live no youtube ministrada pelo canal: Bonieky Lacerda.',
     link1: '/static/img/techs/html.svg',
     link2: '/static/img/techs/css.svg',
@@ -71,9 +94,9 @@ const dados = [{
 
 },
 {
-    id: 6,
+    id: 7,
     title: 'Calculadora',
-    img: 'static/img/projetos/calculadora.png',
+    img: 'static/img/projetos/calculadora.jpeg',
     info: `Calculadora desenvolvida como exemplo
              do Curso Completo de JavaScript na Udemy.com ministrada pela equipe Hcode Treinamento`,
     link1: '/static/img/techs/html.svg',
@@ -84,7 +107,7 @@ const dados = [{
 
 },
 {
-    id: 7,
+    id: 8,
     title: 'Templete-clone-Awax',
     img: 'static/img/projetos/templete-awax.png',
     info: 'Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box',
@@ -96,7 +119,7 @@ const dados = [{
 
 },
 {
-    id: 8,
+    id: 9,
     title: 'Templete-Flexbox',
     img: 'static/img/projetos/templete-flexbox.png',
     info: `Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box`,
