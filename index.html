@@ -22,11 +22,6 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="static/css/style.css">
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-        ScrollReveal({ reset: true });
-    </script>
     
     <script defer src="https://kit.fontawesome.com/30f83f736b.js" crossorigin="anonymous"></script>
 
@@ -64,19 +59,19 @@
         <section id="apresentacaoPortfolio" >
             <article id="apresentacaoTexto">
                 <h2>
-                    <span class="daley-inicio"> Olá, eu sou o,</span>
+                    <span class="daley-3"> Olá, eu sou o,</span>
                     <br>
-                    <span id="nome" class="daley-inicio">Adelmo Menezes</span>
+                    <span id="nome" >Adelmo Menezes</span>
                     <br>
-                    <span class="msg-init">Desenvolvedor Front-end e Software Developer.</span></span>
+                    <span class="msg-init daley-3">Desenvolvedor Front-end e Software Developer.</span></span>
                 </h2>
-                <a href="https://api.whatsapp.com/send?phone=71983449654" target="_blank" style="background-color: #32b132;">
+                <a class="daley-1" href="https://api.whatsapp.com/send?phone=71983449654" target="_blank" style="background-color: #32b132;">
                     <i style="font-size: 22px" class="fa fa-whatsapp"></i>&nbsp;Meu WhatsApp
                 </a>
             </article>
 
-            <article id="apresentacaoFoto">
-                <img src="static/img/pc.svg" alt="Imagem de um espaço com coisas flutando" id="fundo">
+            <article id="apresentacaoFoto" class="daley-0">
+                <img src="static/img/pc.svg" alt="Imagem de um monitor teclado e mao" id="fundo">
                 <!-- <img src="static/img/fundopessoa.png"
                     alt="Imagem de ilustrativa de mim flutuando no espaço com um efeito de movimento" class="object"> -->
             </article>
@@ -84,26 +79,26 @@
 
         <section id="sobre">
             <section id="sobreMim">
-                <article id="sobreFoto" class="daley-sobre">
+                <article id="sobreFoto" class="daley-1">
                     <img src="/static/img/adelmo.png" alt="uma foto de mim com mascara preta e camisa branca.">
                 </article>
                 <article id="sobreTexto">
                     <h3>Sobre mim</h3>
-                    <p class="daley-sobre">
+                    <p class="daley-l2">
                         Meu nome é Adelmo Menezes, tenho 25 anos, moro no Brasil, especificamente em São Francisco do
                         Conde - BA.
                         Atualmente estou estudando em uma universidade e estagiando na empresa i9 Software como Software
                         Developer.
                         Também tenho estudado bastante sozinho para aprender novas tecnologias, como ReactJS e nodeJS
                     </p>
-                    <p class="daley-sobre">
+                    <p class="daley-l1">
                         Conheci o mundo da progamação em 2014, e em 2017 eu comecei a fazer Sistema de informação na
                         universidade.
                         Iniciei como Desenvolvedor em 2019 quando tive minha primeira oportunidade de estagio em uma
                         startup.
                         Desde então venho dedicando cerca de 4hrs por dia aos estudos.
                     </p><br>
-                    <span class=" d-flex daley-inicio">
+                    <span class="d-flex daley-0">
                     <a href="https://www.linkedin.com/in/adelmomenezes/" target="_blank">
                         <i style="font-size: 22px" class="fa fa-linkedin"></i>&nbsp;Linkedin
                     </a>
@@ -118,17 +113,16 @@
 
         <section id="projetos">
             <h2>Projetos</h2>
-              <article class="daley-proj">
-                <div id="proj" class="daley-proj">
+              <article class="daley-l2">
+                <div id="proj">
                     <img src="" id="fotoProjeto">
                     <h2 id="tituloProjeto"></h2>
                     <h3 class="desc">Descrição</h3>
-                    <p id="descricaoProjeto">🏬 </p>
+                    <p id="descricaoProjeto" class="daley-1">🏬</p>
                     <h3>Tecnologias</h3>
-                    <span class="tech">
-                        
+                    <span class="tech daley-0">
                     </span>
-                    <span class="botoes-projetos">
+                    <span class="botoes-projetos daley-0">
                         <a  target="_blank" id="gitProjeto">
                             <button class="aovivo-button"><i class="fa fa-github"></i> github</button>
                         </a>
@@ -139,9 +133,9 @@
                 </div>
         </section>
 
-        <section id="meusConhecimentos" class="">
+        <section id="meusConhecimentos">
             <h2 id="textSkill">Experiências</h2>
-            <div>
+            <div class="daley-0">
               <article class="htmlecss">
                 <img src="static/img/logoHTMLeCSS.png" alt="Logo do HTML e CSS" class="imageIcones">
                 <h2>HTML e CSS</h2>
@@ -219,32 +213,11 @@
     <!--JQuery para o menu e scroll-->
     <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
     <!--Meus Scritps-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <script src="./static/js/partis/script.js"></script>
     <script src="./static/js/partis/projeto.js"></script>
-    <script>
-   
-      const rs ={
-         delay    : 450,
-         duration: 870,
-         origin : 'bottom',
-         reset: true,
-         distance:'90px',
-      }
 
-      const rsText ={
-         delay    : 450,
-         duration: 870,
-         origin : 'left',
-         reset: true,
-         distance:'100px',
-         opacity:.2,
-      }
-
-      ScrollReveal().reveal('.daley-inicio',rs )
-      ScrollReveal().reveal('.daley-sobre',rsText )
-      ScrollReveal().reveal('.daley-proj',rs )
-
-   </script>
     <!-- JavaScript Bundle with Popper -->
     <!-- JavaScript Bundle with Popper -->
 </body>
