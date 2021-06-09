@@ -976,11 +976,30 @@ footer #midiasSociaisFooter i:hover {
     animation: pisca 1s infinite;
 }
   
-@keyframes pisca{
-    0%, 100%{
-        opacity: 1;
+.maquina-escrever:after {
+    content: "|";
+    margin-left: 5px;
+    opacity: 1;
+    -webkit-animation: pisca 1s infinite;
+            animation: pisca 1s infinite;
+  }
+  
+  @-webkit-keyframes pisca {
+    0%,
+    100% {
+      opacity: 1;
     }
-    50%{
-        opacity: 0;
+    50% {
+      opacity: 0;
     }
-}
+  }
+  
+  @keyframes pisca {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
