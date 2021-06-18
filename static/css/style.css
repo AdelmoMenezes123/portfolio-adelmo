@@ -525,7 +525,7 @@ main #projetos article {
 }
 
 main #projetos article div {
-    height: auto;
+    height: 39rem;
     flex-grow: 0;
     flex-basis: 375px;
     background-color: #fafafa;
@@ -535,13 +535,29 @@ main #projetos article div {
     box-shadow: 0 0 10px #cacaca;
     position: relative;
     text-align: center;
-    margin-bottom: auto;
+    /* margin-bottom: auto; */
+}
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 main #projetos article div img{
     width: 100%;
     height: auto;
 }
+
+/* @media(min-width:1000px){
+    main #projetos article div img:active{
+        transform: scale(2);
+        z-index: 2147483647;
+        position: relative;
+        inset: 0px;
+    }
+} */
 
 main #projetos article div h2  {
     font-size: 1.6rem

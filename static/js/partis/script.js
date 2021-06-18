@@ -23,9 +23,7 @@ $(document).ready(function () {
   });
 
   //Scroll top
-
   var scrollTop = $('.scrollTop');
-
   $(window).scroll(function () {
     var topPos = $(this).scrollTop();
 
@@ -36,6 +34,7 @@ $(document).ready(function () {
       $(scrollTop).css('opacity', '0');
     }
   });
+
   //Maquina de escrever
   function typeWrite(elemento) {
     const textoArray = elemento.innerHTML.split('');
@@ -50,6 +49,7 @@ $(document).ready(function () {
   }
   const titulo = document.querySelector('.maquina-escrever');
   typeWrite(titulo);
+
   //velocidade a animação
   $(scrollTop).click(function () {
     $('html, body').animate(
