@@ -75,7 +75,7 @@ const dados = [{
     id: 6,
     title: 'Nerd-Folio',
     img: 'static/img/projetos/nerdfolio.jpeg',
-    info: 'Blog Pessoal para você armazenar status de atividades recente, no mundo "NERD"',
+    info: 'Bloco de notas Pessoal para você armazenar status de atividades recente, no mundo "NERD"',
     link1: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png',
     link2: '/static/img/handle.png',
     link3: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png',
