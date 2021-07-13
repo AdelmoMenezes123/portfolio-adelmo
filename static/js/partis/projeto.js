@@ -154,18 +154,18 @@ const dados = [{
     github: 'https://github.com/AdelmoMenezes123/templete-flex/blob/master/README.md'
 
 },
-// {
-//     id: 13,
-//     title: 'Templete-Flexbox',
-//     img: 'static/img/projetos/templete-flexbox.png',
-//     info: `Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box`,
-//     link1: '/static/img/techs/html.svg',
-//     link2: '/static/img/techs/css.svg',
-//     link3: '/static/img/techs/js.svg',
-//     link_projeto: 'https://templete-flex.vercel.app/',
-//     github: 'https://github.com/AdelmoMenezes123/templete-flex/blob/master/README.md'
+{
+    id: 13,
+    title: 'Template Getmecanico',
+    img: 'static/img/projetos/template-get-mecanico.png',
+    info: `Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box`,
+    link1: '/static/img/techs/html.svg',
+    link2: '/static/img/techs/css.svg',
+    link3: '/static/img/techs/js.svg',
+    link_projeto: 'https://template-getmecanico.vercel.app/',
+    github: 'https://github.com/AdelmoMenezes123/template-getmecanico/blob/master/README.md'
 
-// },
+},
 ]
 
 const tech = document.querySelector('.tech')
