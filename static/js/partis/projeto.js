@@ -15,9 +15,11 @@ const dados = [{
     id: 1,
     title: 'Get-Mecânico TCC',
     img: '/static/img/projetos/get-mecanico.jpeg',
-    info: 'TCC. Trabalho de Conclusão de Curso',
+    info: `TCC. Trabalho de Conclusão de Curso. 
+    Você pode se cadastrar como usuario, pesquisar mecânicos e solicitar orçamentos.
+    Ou você pode se cadastrar como mecânico e aceita as chamadas de servios de um usuario.`,
     link1: '/static/img/handle.png',
-    link2: '/static/img/techs/js.svg',
+    link2: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png',
     link3: '/static/img/techs/typescript.png',
     link_projeto: 'http://getmecanico.herokuapp.com//',
     github: 'https://github.com/AdelmoMenezes123/getmecanico/blob/master/README.md'
@@ -74,9 +76,9 @@ const dados = [{
     title: 'Nerd-Folio',
     img: 'static/img/projetos/nerdfolio.jpeg',
     info: 'Blog Pessoal para você armazenar status de atividades recente, no mundo "NERD"',
-    link1: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png',
+    link1: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png',
     link2: '/static/img/handle.png',
-    link3: '/static/img/techs/js.svg',
+    link3: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png',
     link_projeto: 'https://nerdfolio.herokuapp.com/',
     github: 'https://github.com/AdelmoMenezes123/note-app/blob/master/README.md'
 
