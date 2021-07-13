@@ -25,6 +25,18 @@ const dados = [{
 },
 {
     id: 2,
+    title: 'User Manager',
+    img: '/static/img/projetos/user-manager.png',
+    info: 'Projeto desenvolvido no curso online de JavaScript da Hcode Treinamentos.',
+    link1: '/static/img/techs/html.png',
+    link2: '/static/img/techs/js.svg',
+    link3: '/static/img/techs/css.svg',
+    link_projeto: 'https://user-manager-six.vercel.app/',
+    github: 'https://github.com/AdelmoMenezes123/user-manager/blob/master/README.md'
+
+},
+{
+    id: 3,
     title: 'DesenFlix',
     img: 'static/img/projetos/desenflix.png',
     info: 'Desenflix, desenhos, series, animes e filmes, Projeto pessoal criado para aperfeiçoar meus conhecimentos em tecnologias como:',
@@ -36,7 +48,7 @@ const dados = [{
 
 },
 {
-    id: 3,
+    id: 4,
     title: 'Proffy-rocktseat',
     img: 'static/img/projetos/proffy.png',
     info: 'Semana Next Level Week 2, OmniStack, envento promovido pela Rocketseat. Foi usado tecnologias como:',
@@ -47,7 +59,7 @@ const dados = [{
     github: 'https://github.com/AdelmoMenezes123/Proffy-Rocktseat/blob/master/README.md'
 },
 {
-    id: 4,
+    id: 5,
     title: 'Move Body',
     img: 'static/img/projetos/movebody2.png',
     info: 'Semana Next Level Week 4, OmniStack, envento promovido pela Rocketseat. Foi usado tecnologias como:',
@@ -58,7 +70,7 @@ const dados = [{
     github: 'https://github.com/AdelmoMenezes123/movebody/blob/master/README.md'
 },
 {
-    id: 5,
+    id: 6,
     title: 'Nerd-Folio',
     img: 'static/img/projetos/nerdfolio.jpeg',
     info: 'Blog Pessoal para você armazenar status de atividades recente, no mundo "NERD"',
@@ -70,7 +82,7 @@ const dados = [{
 
 },
 {
-    id: 6,
+    id: 7,
     title: 'Calculadora VPL',
     img: 'static/img/projetos/calcula-vpl.jpeg',
     info: ' Trabalho de faculdade para a materia - Gest. Financeira - Calculadora VPL',
@@ -82,7 +94,7 @@ const dados = [{
 
 },
 {
-    id: 7,
+    id: 8,
     title: 'IMC com react',
     img: 'static/img/projetos/imc-react.png',
     info: 'Projeto de estudo, para aperfeicoar meus conhecimentos em react',
@@ -94,7 +106,7 @@ const dados = [{
 
 },
 {
-    id: 8,
+    id: 9,
     title: 'Pizzaria',
     img: 'static/img/projetos/pizza.jpeg',
     info: ' Projeto feito a partir de uma live no youtube ministrada pelo canal: Bonieky Lacerda.',
@@ -106,7 +118,7 @@ const dados = [{
 
 },
 {
-    id: 9,
+    id: 10,
     title: 'Calculadora',
     img: 'static/img/projetos/calculadora.jpeg',
     info: `Calculadora desenvolvida como exemplo
@@ -119,7 +131,7 @@ const dados = [{
 
 },
 {
-    id: 10,
+    id: 11,
     title: 'Templete-clone-Awax',
     img: 'static/img/projetos/templete-awax.png',
     info: 'Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box',
@@ -131,7 +143,7 @@ const dados = [{
 
 },
 {
-    id: 11,
+    id: 12,
     title: 'Templete-Flexbox',
     img: 'static/img/projetos/templete-flexbox.png',
     info: `Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box`,
@@ -142,6 +154,18 @@ const dados = [{
     github: 'https://github.com/AdelmoMenezes123/templete-flex/blob/master/README.md'
 
 },
+// {
+//     id: 13,
+//     title: 'Templete-Flexbox',
+//     img: 'static/img/projetos/templete-flexbox.png',
+//     info: `Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box`,
+//     link1: '/static/img/techs/html.svg',
+//     link2: '/static/img/techs/css.svg',
+//     link3: '/static/img/techs/js.svg',
+//     link_projeto: 'https://templete-flex.vercel.app/',
+//     github: 'https://github.com/AdelmoMenezes123/templete-flex/blob/master/README.md'
+
+// },
 ]
 
 const tech = document.querySelector('.tech')
