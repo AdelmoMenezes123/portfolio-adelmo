@@ -132,6 +132,20 @@ const dados = [{
 },
 {
     id: 11,
+    title: 'Jogo da velha',
+    img: 'static/img/projetos/jogo-da-velha.png',
+    info: `Projeto faculdade, feito para matéria de Processos Decisórios e Sistemas de Apoio a Decisão.
+    Você pode bloquear alguns campos, pode jogar aleatório, e para pontuar,
+    você tem que acerta duas sequências de 3 casas`,
+    link1: '/static/img/techs/html.svg',
+    link2: '/static/img/techs/css.svg',
+    link3: '/static/img/techs/js.svg',
+    link_projeto: 'https://jogo-da-velha-sexta.vercel.app/',
+    github: 'https://github.com/AdelmoMenezes123/jogo-da-velha-sexta/blob/master/README.md',
+
+},
+{
+    id: 12,
     title: 'Templete-clone-Awax',
     img: 'static/img/projetos/templete-awax.png',
     info: 'Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box',
@@ -143,7 +157,7 @@ const dados = [{
 
 },
 {
-    id: 12,
+    id: 13,
     title: 'Templete-Flexbox',
     img: 'static/img/projetos/templete-flexbox.png',
     info: `Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box`,
@@ -155,7 +169,7 @@ const dados = [{
 
 },
 {
-    id: 13,
+    id: 14,
     title: 'Template Getmecanico',
     img: 'static/img/projetos/template-get-mecanico.png',
     info: `Projeto de estudo, para aperfeicoar meus conhecimentos em CSS/Flex-box`,
