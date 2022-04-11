@@ -121,15 +121,15 @@ const dados = [{
 },
 {
     id: 10,
-    title: 'Calculadora',
-    img: 'static/img/projetos/calculadora.jpeg',
-    info: `Calculadora desenvolvida como exemplo
-             do Curso Completo de JavaScript na Udemy.com ministrada pela equipe Hcode Treinamento`,
+    title: 'Expense Control',
+    img: 'static/img/projetos/expense-control.png',
+		info: `Sistema criado para controlar suas transações, 
+						onde você coloca sua receita e dispesa e o sistema calcula os valores.`,
     link1: '/static/img/techs/html.svg',
     link2: '/static/img/techs/css.svg',
     link3: '/static/img/techs/js.svg',
-    link_projeto: 'https://calculadora-plum.vercel.app/',
-    github: 'https://github.com/AdelmoMenezes123/calculadora/blob/master/README.md',
+    link_projeto: 'https://expense-control-nu.vercel.app/',
+    github: 'https://github.com/AdelmoMenezes123/expense-control',
 
 },
 {
@@ -181,7 +181,20 @@ const dados = [{
     link_projeto: 'https://template-getmecanico.vercel.app/',
     github: 'https://github.com/AdelmoMenezes123/template-getmecanico/blob/master/README.md'
 
-},
+	},
+	{
+		id: 15,
+		title: 'Calculadora',
+		img: 'static/img/projetos/calculadora.jpeg',
+		info: `Calculadora desenvolvida como exemplo
+						do Curso Completo de JavaScript na Udemy.com ministrada pela equipe Hcode Treinamento`,
+		link1: '/static/img/techs/html.svg',
+		link2: '/static/img/techs/css.svg',
+		link3: '/static/img/techs/js.svg',
+		link_projeto: 'https://calculadora-plum.vercel.app/',
+		github: 'https://github.com/AdelmoMenezes123/calculadora/blob/master/README.md',
+
+	},
 ]
 
 const tech = document.querySelector('.tech')
