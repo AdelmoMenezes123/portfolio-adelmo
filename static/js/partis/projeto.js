@@ -39,15 +39,14 @@ const dados = [
   },
   {
     id: 3,
-    title: "DesenFlix",
-    img: "static/img/projetos/desenflix.png",
-    info: "Desenflix, desenhos, series, animes e filmes, Projeto pessoal criado para aperfeiçoar meus conhecimentos em tecnologias como:",
-    link1: "/static/img/techs/html.svg",
-    link2: "/static/img/techs/css.svg",
+    title: "Board - Tarefas",
+    img: "static/img/projetos/board.png",
+    info: `Projeto de estudo, criando lista de tarefas, login com github e paypal develop`,
+    link1: "/static/img/techs/next-js.svg",
+    link2: "/static/img/techs/sass.svg",
     link3: "/static/img/techs/js.svg",
-    link_projeto: "https://desen-flix.vercel.app/",
-    github:
-      "https://github.com/AdelmoMenezes123/DesenFlix/blob/master/README.md",
+    link_projeto: "https://board01.vercel.app/",
+    github: "https://github.com/AdelmoMenezes123/board01/blob/master/README.md",
   },
   {
     id: 4,
@@ -184,16 +183,15 @@ const dados = [
   },
   {
     id: 15,
-    title: "Calculadora",
-    img: "static/img/projetos/calculadora.jpeg",
-    info: `Calculadora desenvolvida como exemplo
-						do Curso Completo de JavaScript na Udemy.com ministrada pela equipe Hcode Treinamento`,
+    title: "DesenFlix",
+    img: "static/img/projetos/desenflix.png",
+    info: "Desenflix, desenhos, series, animes e filmes, Projeto pessoal criado para aperfeiçoar meus conhecimentos em tecnologias como:",
     link1: "/static/img/techs/html.svg",
     link2: "/static/img/techs/css.svg",
     link3: "/static/img/techs/js.svg",
-    link_projeto: "https://calculadora-plum.vercel.app/",
+    link_projeto: "https://desen-flix.vercel.app/",
     github:
-      "https://github.com/AdelmoMenezes123/calculadora/blob/master/README.md",
+      "https://github.com/AdelmoMenezes123/DesenFlix/blob/master/README.md",
   },
   {
     id: 16,
@@ -208,6 +206,19 @@ const dados = [
     link_projeto: "https://jogo-da-velha-sexta.vercel.app/",
     github:
       "https://github.com/AdelmoMenezes123/jogo-da-velha-sexta/blob/master/README.md",
+  },
+  {
+    id: 17,
+    title: "Calculadora",
+    img: "static/img/projetos/calculadora.jpeg",
+    info: `Calculadora desenvolvida como exemplo
+						do Curso Completo de JavaScript na Udemy.com ministrada pela equipe Hcode Treinamento`,
+    link1: "/static/img/techs/html.svg",
+    link2: "/static/img/techs/css.svg",
+    link3: "/static/img/techs/js.svg",
+    link_projeto: "https://calculadora-plum.vercel.app/",
+    github:
+      "https://github.com/AdelmoMenezes123/calculadora/blob/master/README.md",
   },
 ];
 
