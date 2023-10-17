@@ -214,6 +214,17 @@ const dados = [
     link_projeto: "https://jogo-da-velha-sexta.vercel.app/",
     github: "https://github.com/AdelmoMenezes123/jogo-da-velha-sexta/blob/master/README.md",
   },
+  {
+    id: 18,
+    title: "Ping Pong",
+    img: "/static/img/projetos/ping-pong.jpeg",
+    info: `Projeto de estudo, para treinar meus conhecimentos em HTML, CSS e JS`,
+    link1: "/static/img/techs/html.svg",
+    link2: "/static/img/techs/css.svg",
+    link3: "/static/img/techs/js.svg",
+    link_projeto: "https://ping-pong-topaz.vercel.app/",
+    github: "https://github.com/AdelmoMenezes123/ping-pong",
+  },
 ];
 
 const tech = document.querySelector(".tech");
